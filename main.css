@@ -28,6 +28,10 @@ header {
     color: #fff;
 }
 
+header h1 {
+    font-style: italic;
+}
+
 header a {
     text-decoration: none;
     color: #fff;
@@ -60,6 +64,7 @@ section h2 {
     margin-bottom: 56px;
     border-bottom: 3px solid #0067DA;
     color: #0067DA;
+    font-style: italic;
 }
 
 section p {
@@ -108,10 +113,6 @@ section p {
 
 
 @media screen and (min-width: 641px) and (max-width: 1023px) {
-
-    header {
-        background-color: red;
-    }
 
     .container {
         max-width: 90%;
@@ -172,9 +173,6 @@ section p {
 
 @media screen and (max-width: 641px) {
 
-    header {
-        background-color: green;
-    }
 
     .container {
         max-width: 80%;
